@@ -25,8 +25,7 @@ export function ContactSection() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
               <p className="text-muted-foreground max-w-md">
-                {`Feel free to reach out to me through the contact form or via the information below.
-                I'm always open to discussing new projects, creative ideas, or opportunities.`}
+                {`Feel free to reach out to me through the contact form or via the information below.I'm always open to discussing new projects, creative ideas, or opportunities.`}
               </p>
             </div>
             
