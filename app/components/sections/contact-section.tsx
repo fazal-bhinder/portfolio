@@ -25,14 +25,12 @@ export function ContactSection() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
               <p className="text-muted-foreground max-w-md">
-<<<<<<< HEAD
+
                 {`Feel free to reach out to me through the contact form or via the information below.
                 I'm always open to discussing new projects, creative ideas, or opportunities.`}
-=======
                 {`Feel free to reach out to me through the contact form or via the information below.I'm always open to discussing new projects, creative ideas, or opportunities.`}
->>>>>>> 871099b98bbfe8ff2b145df15b8a33bfd5d39022
-              </p>
 
+              </p>
             </div>
             
             <div className="space-y-4">
