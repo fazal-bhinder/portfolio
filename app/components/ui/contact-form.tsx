@@ -39,8 +39,7 @@ export function ContactForm() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
-
-    // Send form data to the Next.js API route
+    
     fetch("/api/contact", {
       method: "POST",
       headers: {

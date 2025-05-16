@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 export async function POST(req: Request) {
   const { name, email, message } = await req.json();
 
-  const formspreeEndpoint = "https://formspree.io/f/manonrzw";
+  const formspreeEndpoint = `https://formspree.io/f/${process.env.FORMSPREE_ID}`;
 
   try {
     const response = await fetch(formspreeEndpoint, {

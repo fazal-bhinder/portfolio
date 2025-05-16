@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
@@ -9,7 +9,7 @@ import { SkillBadge } from "@/app/components/ui/skill-badge";
 interface ProjectCardProps {
   title: string;
   description: string;
-  imageSrc: string;
+  imageSrc: string | StaticImageData;
   liveUrl?: string;
   githubUrl?: string;
   technologies: string[];

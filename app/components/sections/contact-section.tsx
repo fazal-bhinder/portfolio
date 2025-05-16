@@ -7,7 +7,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export function ContactSection() {
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 bg-black">
       <div className="container px-4 md:px-6 max-w-5xl mx-auto">
         <SectionHeading
           title="Get In Touch"
@@ -25,9 +25,10 @@ export function ContactSection() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
               <p className="text-muted-foreground max-w-md">
-                Feel free to reach out to me through the contact form or via the information below.
-                I'm always open to discussing new projects, creative ideas, or opportunities.
+                {`Feel free to reach out to me through the contact form or via the information below.
+                I'm always open to discussing new projects, creative ideas, or opportunities.`}
               </p>
+
             </div>
             
             <div className="space-y-4">

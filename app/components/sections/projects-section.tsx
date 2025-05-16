@@ -6,7 +6,7 @@ import { projects } from "@/app/data/projects";
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-20 bg-black">
       <div className="container px-4 md:px-6 max-w-5xl mx-auto">
         <SectionHeading
           title="Projects"
