@@ -44,13 +44,13 @@ const skills = [
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="py-20 bg-black">
+    <section id="skills" className="py-20 bg-background text-foreground">
       <div className="container px-4 md:px-6 max-w-5xl mx-auto">
         <SectionHeading
           title="Skills & Expertise"
           subtitle="Technologies and tools I work with"
         />
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -79,7 +79,7 @@ export function SkillsSection() {
               ))}
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -108,7 +108,7 @@ export function SkillsSection() {
             </div>
           </motion.div>
         </div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
