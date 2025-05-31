@@ -44,7 +44,7 @@ const skills = [
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="py-20 bg-background text-foreground">
+    <section id="skills" className="py-20 bg-white dark:bg-black  text-foreground">
       <div className="container px-4 md:px-6 max-w-5xl mx-auto">
         <SectionHeading
           title="Skills & Expertise"
