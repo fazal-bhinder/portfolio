@@ -15,6 +15,14 @@ export const projects = [
     technologies: ["Next.js", "React", "WebContainer", "GPT-4o"],
   },
   {
+    title: "Medium Clone",
+    description: "Created a Medium-style blogging platform Implemented authentication, CRUD operations, and a clean editor interface.",
+    imageSrc: MediumImg,
+    liveUrl: "https://medium-frontend-beta.vercel.app/",
+    githubUrl: "https://github.com/fazal-bhinder/medium?tab=readme-ov-file",
+    technologies: ["Next.js", "TypeScript", "Hono", "Cloudflare"],
+  },
+  {
     title: "PayTm clone",
     description: "Built a full-stack Paytm-like payment app. Enabling users to transfer funds between bank and wallet, and send money to friends. Separate payment gateway routing, and real-time transaction of magic, and a lot of love.",
     imageSrc: PaytmImg,
@@ -29,14 +37,6 @@ export const projects = [
     liveUrl: "https://github.com/fazal-bhinder/muzic",
     githubUrl: "https://github.com/fazal-bhinder/muzic",
     technologies: ["Next.js", "React", "TailwindCSS", "Algorithms"],
-  },
-  {
-    title: "Medium Clone",
-    description: "Created a Medium-style blogging platform Implemented authentication, CRUD operations, and a clean editor interface.",
-    imageSrc: MediumImg,
-    liveUrl: "https://github.com/fazal-bhinder/medium?tab=readme-ov-file",
-    githubUrl: "https://github.com/fazal-bhinder/medium?tab=readme-ov-file",
-    technologies: ["Next.js", "TypeScript", "Hono", "Cloudflare"],
   },
   {
     title: "Exercise Tracker",
