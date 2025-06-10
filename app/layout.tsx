@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/app/components/theme/theme-provider';
 import { Navbar } from '@/app/components/navbar/navbar';
 import { Footer } from '@/app/components/footer/footer';
 import { Toaster } from '@/app/components/ui/toaster';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '700'] });
 

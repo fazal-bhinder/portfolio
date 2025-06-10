@@ -1,8 +1,8 @@
 import TrashAI from "@/public/assets/trash.jpeg";
 import MuzicImg from "@/public/assets/muzic.jpeg";
-import MediumImg from "@/public/assets//medium.jpeg"
-import PaytmImg from "@/public/assets//paytm.jpeg";
-import GymImg from "@/public/assets//gym.jpeg";
+import MediumImg from "@/public/assets/medium.jpeg"
+import PaytmImg from "@/public/assets/paytm.jpeg";
+import GymImg from "@/public/assets/gym.jpeg";
 
 
 export const projects = [

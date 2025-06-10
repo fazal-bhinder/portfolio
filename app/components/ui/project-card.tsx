@@ -30,8 +30,8 @@ export function ProjectCard({
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay }}
-      whileHover={{ y: -10 }}
+      transition={{ duration: 0, delay }}
+      whileHover={{ y: -10, scale: 1.02 }}
       className="group overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md hover:shadow-gray-800"
     >
       <div className="relative h-48 w-full overflow-hidden">
