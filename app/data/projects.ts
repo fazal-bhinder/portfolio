@@ -10,7 +10,7 @@ export const projects = [
     title: "TrashAI",
     description: "Never write from your code from scratch again. Kickstart your coding projects with TrashAI,your long-form writing AI assistant.",
     imageSrc: TrashAI,
-    liveUrl: "https://trashai-frontend.vercel.app/",
+    liveUrl: "https://trashai.vercel.app/",
     githubUrl: "https://github.com/fazal-bhinder/TrashAI",
     technologies: ["Next.js", "React", "WebContainer", "GPT-4o"],
   },
