@@ -2,7 +2,7 @@ import TrashAI from "@/public/assets/trash.jpeg";
 import MuzicImg from "@/public/assets/muzic.jpeg";
 import MediumImg from "@/public/assets/medium.jpeg"
 import PaytmImg from "@/public/assets/paytm.jpeg";
-import GymImg from "@/public/assets/gym.jpeg";
+import F1 from "@/public/assets/f1.jpeg";
 
 
 export const projects = [
@@ -23,6 +23,14 @@ export const projects = [
     technologies: ["Next.js", "TypeScript", "Hono", "Cloudflare"],
   },
   {
+    title: "Formla 1",
+    description: "Inspired by the thrill and intensity of Formula 1. It features a dynamic fullscreen video background, iconic quotes from drivers, and a sleek, responsive design.",
+    imageSrc: F1,
+    liveUrl: "https://racing-f1.b-cdn.net/",
+    githubUrl: "https://github.com/fazal-bhinder/gym_app",
+    technologies: ["Gsap", "Html", "Css", "JavaScript"],
+  },
+  {
     title: "PayTm clone",
     description: "Built a full-stack Paytm-like payment app. Enabling users to transfer funds between bank and wallet, and send money to friends. Separate payment gateway routing, and real-time transaction of magic, and a lot of love.",
     imageSrc: PaytmImg,
@@ -38,13 +46,6 @@ export const projects = [
     githubUrl: "https://github.com/fazal-bhinder/muzic",
     technologies: ["Next.js", "React", "TailwindCSS", "Algorithms"],
   },
-  {
-    title: "Exercise Tracker",
-    description: "A fully-featured Exercise tracking platform with a clean and intuitive interface. Users can log their workouts, set goals, and track their progress.",
-    imageSrc: GymImg,
-    liveUrl: "https://github.com/fazal-bhinder/gym_app",
-    githubUrl: "https://github.com/fazal-bhinder/gym_app",
-    technologies: ["React", "Node.js", "Express"],
-  },
+  
   
 ];

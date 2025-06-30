@@ -93,7 +93,7 @@ export function HeroSection() {
               <Github className="h-6 w-6" />
             </Link>
             <Link
-              href="https://x.com/bhinder__fazal"
+              href="https://x.com/damnfazal"
               target="_blank"
               className="hover:text-red-500 transition-colors duration-200"
             >
