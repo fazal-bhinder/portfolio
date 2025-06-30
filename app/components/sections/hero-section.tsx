@@ -86,7 +86,7 @@ export function HeroSection() {
             className="flex justify-center items-center gap-6"
           >
             <Link
-              href="https://github.com/fazal-bhinder"
+              href="https://x.com/damnfazal"
               target="_blank"
               className="hover:text-red-500 transition-colors duration-200"
             >
