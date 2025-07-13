@@ -28,11 +28,11 @@ export function HeroSection() {
             <p className="text-blue-600 dark:text-blue-400 text-lg">
               Hi, my name is
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-slate-200 leading-tight">
-              Fazal Singh.
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-slate-200 leading-tight">
+              Fazal Singh
             </h1>
-            <h2 className="text-3xl md:text-6xl font-bold text-gray-700 dark:text-slate-400 leading-tight">
-              I love building cool stuff.
+            <h2 className="text-3xl md:text-3xl font-bold text-gray-700 dark:text-slate-400 leading-tight">
+              Here checout my new portfolio → <a href='https://fazal-two.vercel.app/' className='underline'>Click here</a>
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-slate-400 leading-relaxed max-w-2xl mx-auto">
               I’m a full-stack developer from India who turns ideas into fast, functional, and beautiful web apps.
@@ -86,7 +86,7 @@ export function HeroSection() {
             className="flex justify-center items-center gap-6"
           >
             <Link
-              href="https://github.com/fazal-bhinder"
+              href="https://x.com/damnfazal"
               target="_blank"
               className="hover:text-red-500 transition-colors duration-200"
             >
